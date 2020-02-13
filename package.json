@@ -7,9 +7,7 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sai Charan",
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
@@ -17,5 +15,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://github.com/charan0017/cors-proxy"
+  },
+  "license": "MIT",
+  "keywords": []
 }
