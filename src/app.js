@@ -19,7 +19,7 @@ app.use('/:url', async (req, res) => {
     }
 });
 
-app.use('*', (req, res) => res.redirect('/'));
+app.use('*', (req, res) => res.status(404).send('Not found!'));
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}.`);
